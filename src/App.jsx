@@ -62,7 +62,7 @@ function App() {
           <button onClick={clearall} className='clear'>Clear</button>
           {bmi !== null && (
             <div className="result">
-              <p>Yoy are BMI is {bmi}</p>
+              <p>You are BMI is {bmi}</p>
               <p>Status : {bmistatus}</p>
             </div>
           )}
