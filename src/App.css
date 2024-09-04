@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+JP:wght@100..900&family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
+.bmi-calculater{
+  background-color: #fff;
+  width: 800px;
+  height: 500px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px black;
+  display: flex;
+}
+.box{
+  width: 350px;
+  background-image: url("assets/BMI-calculator.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.data{
+  flex: 1;
+  padding: 15px;
+}
+h1{
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #2980b9;
+}
+
+.input-container{
+  margin-bottom: 15px;
+}
+label{
+  display: block;
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: #888;
+}
+input{
+  padding: 10px;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid;
+}
+
+button{
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size:16px;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: background-color  0.3s;
+}
+
+button:hover{
+  background-color: #2980b9;
+}
+.result{
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid #3498db;
+  border-radius: 4px;
+}
+.result p{
+  margin: 10px 0;
+  color: #555;
+}
+.result p:first-child{
+  color: #3498db;
+  font-weight: bold;
+}
+
+.error{
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.clear{
+  background-color: rgb(223, 70, 70);
+  margin-left: 10px ;
+}
+.clear:hover{
+  background-color: red;
+}
